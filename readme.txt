@@ -6,7 +6,6 @@ Steps to Setup Blender:
 $tar xvjf filename.tar.bz2
 3. Open Terminal, go to this folder location you just extracted, run cmd: 
 $./blender
-4. You will now be running Blender, you can have fun with it here.
 
 Steps to setup PySoy scripts below:
 1. Copy the pysoy module "soy.cpython-34m.so" from python packages location:
@@ -17,9 +16,8 @@ to your blender folder you extracted initially:
 2. Go to "User Preferences" inside Blender, tab "File", and specify '$/your-pysoy-path/plugins/blender2k15', in the "scripts" input.
 
 Steps to run the script:
-1. Change the Blender screen to 'Scripting' on the top tool bar.
-2. In the Text Editor window, click 'open a new text block' button to the right.
-3. Go to the location of the script 'ds_pysoy_modeller.py' in '$/yourblenderpath/2.*/scripts/addons' and click open text block.
-4. Click 'Run Script' to convert it to PySoy code.
-
-Warning: Blender might crash running the above scripts. Nothing to worry.
+1. Change the Blender screen to 'Scripting' in the top Screen Layout.
+2. In the Text Editor window, click 'open a new text block' button.
+3. Go to the location of the script 'blender_server.py' in '$/your-pysoy-path/plugins/blender2k15/addons' and click open text block.
+4. Model your mesh in Blender, create the game level model.
+5. Click 'Run Script' to convert it to PySoy meshes stored in 'pysoy_client.py' in the same folder.
