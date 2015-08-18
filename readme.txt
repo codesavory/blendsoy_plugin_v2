@@ -19,5 +19,13 @@ Steps to run the script:
 1. Change the Blender screen to 'Scripting' in the top Screen Layout.
 2. In the Text Editor window, click 'open a new text block' button.
 3. Go to the location of the script 'blender_server.py' in '$/your-pysoy-path/plugins/blender2k15/addons' and click open text block.
-4. Model your mesh in Blender, create the game level model.
+4. Model your mesh in Blender, design the game level.
 5. Click 'Run Script' to convert it to PySoy meshes stored in 'pysoy_client.py' in the same folder.
+
+Steps to use it as an addon(for easier workflow):
+1. Go to "User Preferences" inside Blender, tab "Addon".
+2. Type "pysoy" in search or look for the addon in the "Mesh" category.
+3. Tick the enable addon to the right.
+4. Save user settings, for this to be available everytime you open Blender.
+5. You can find the addon in the "View3D" Header section appended towards the right of the 3D View Editor type.
+6. To see the generated pysoy file, change the Screen Layout to "Scripting" and see the "Text Editor"
